@@ -1,10 +1,13 @@
 {
-  "name": "dummy-lib",
+  "name": "@barisbll/dummy-lib",
   "license": "MIT",
   "version": "0.0.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
     "release": "pnpm run build && changeset publish",
