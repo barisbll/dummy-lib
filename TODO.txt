@@ -1,0 +1,3 @@
+Probably npm add user should run as a step each time publish occurs and I should use .npmrc for the user
+
+test
