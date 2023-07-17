@@ -1,5 +1,5 @@
 {
-  "name": "dummy-lib",
+  "name": "@barisbll/dummy-lib",
   "version": "1.0.1",
   "description": "A dummy library to make a library deployment example",
   "main": "index.js",
