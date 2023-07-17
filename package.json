@@ -1,6 +1,6 @@
 {
   "name": "dummy-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dummy library to make a library deployment example",
   "main": "index.js",
   "scripts": {
