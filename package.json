@@ -1,6 +1,6 @@
 {
   "name": "@barisbll/dummy-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dummy library to make a library deployment example",
   "main": "index.js",
   "module": "dist/index.mjs",
