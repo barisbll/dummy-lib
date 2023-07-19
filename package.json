@@ -3,6 +3,11 @@
   "version": "1.0.2",
   "description": "A dummy library to make a library deployment example",
   "main": "index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "release": "pnpm run build && changeset publish"
